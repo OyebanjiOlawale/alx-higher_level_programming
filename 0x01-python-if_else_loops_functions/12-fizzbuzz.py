@@ -1,5 +1,6 @@
 !/usr/bin/python3
 # 12-fizzbuzz.py
+# Oyebanji Olawale Amzat <oyebanji_olawale@yahoo.com>
 
 
 def fizzbuzz():
