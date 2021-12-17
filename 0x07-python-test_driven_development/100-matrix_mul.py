@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 # 100-matrix_mul.py
+# Oyebanji Olawale Amzat
 """Defines a matrix multiplication function."""
 
 
