@@ -1,5 +1,5 @@
 # 0-add_integer.txt
-# Oyebanji Olawale Amzat <oyebanji_olawale@yahoo.com>
+# Oyebanji Olawale Amzat
 
 ===========================
 How to Use 0-add_integer.py
