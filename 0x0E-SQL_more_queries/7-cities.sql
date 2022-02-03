@@ -1,9 +1,14 @@
--- lists all the cities of California that can be found in the database hbtn_0d_usa
--- states table contains only one record where name = California (but the id can be different)
--- results must be sorted in ascending order by cities.id
--- not allowed to use the JOIN keyword
--- the database name will be passed as an argument of the mysql command
+-- creates the database hbtn_0d_usa and the table cities (in the database hbtn_0d_usa)
+-- description of table data:
+--      id INT unique, auto generated, t be null and is a primary key
+--      state_id INT, t be null and must be a FOREIGN KEY that references to id of the states
+--      name VARCHAR(256), can't be null
+-- should not fail if either exists
 
-SELECT id, name
-  FROM cities
- WHERE state_id = (SELECT id FROM states WHERE name = "California") GROUP BY id ORDER BY id ASC;
+CREATE DATABASE IF NOT EXISTS hbtn_0d_usa;
+USE hbtn_0d_usa;
+CREATE TABLE IF NOT EXISTS cities (
+       id INT UNIQUE AUTO_INCREMENT NOT NULL PRIMARY KEY,
+       state_id INT NOT NULL,
+       name VARCHAR(256) NOT NULL,
+       FOREIGN KEY(state_id) REFERENCES hbtn_0d_usa.states(id)
