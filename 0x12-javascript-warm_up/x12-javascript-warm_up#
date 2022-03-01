@@ -1,0 +1,14 @@
+
+ssphrase for key '/root/.ssh/id_rsa':
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 407 bytes | 407.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:OyebanjiOlawale/alx-higher_level_programming.git
+   cc7086c..3deec6f  main -> main
+root@4867cab1fa4c:~/alx-higher_level_programming/0x12-javascript-warm_up# vi 100-let_me_const.js
+root@4867cab1fa4c:~/alx-higher_level_programming/0x12-javascript-warm_up# chmod a+x 100-let_me_const.js
+root@4867cab1fa4c:~/alx-higher_level_
